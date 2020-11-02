@@ -25,6 +25,7 @@ html {
 }
 body {
   font-family: "Ruhl", sans-serif;
+  animation: opening 1s ease-in-out;
 }
 h1 {
   font-size: calc(1.2rem + 1vw);
@@ -127,4 +128,33 @@ nav > ul {
   bottom: 0;
   left: -20%;
   z-index: -1;
+  transform: translateY(10%) rotateZ(-10deg) rotateX(90deg);
+  animation: plant-entrance 1.5s ease-in-out 0.5s forwards,
+    plant-shake 5s infinite ease-in-out alternate-reverse 2s;
+  transform-origin: bottom;
+}
+
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes plant-entrance {
+  from {
+    transform: translateY(10%) rotateZ(-10deg) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateZ(0) rotateX(0);
+  }
+}
+@keyframes plant-shake {
+  from {
+    transform: rotateZ(-5deg);
+  }
+  to {
+    transform: rotateZ(0);
+  }
 }
