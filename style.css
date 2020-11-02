@@ -24,9 +24,11 @@ html {
   --background-color: #414141;
 }
 body {
+  font-family: "Ruhl", sans-serif;
 }
 h1 {
   font-size: calc(2rem + 1vw);
+  font-family: "Vibes", sans-serif;
 }
 h2 {
   font-size: calc(3.5rem + 1vw);
