@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Ruhl";
+  src: url("./assets/fonts/FrankRuhlLibre-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ruhl Medium";
+  src: url("./assets/fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Vibes";
+  src: url("./assets/fonts/GreatVibes-Regular.ttf") format("truetype");
+}
+html {
+  font-size: 62.5%px;
+  --text-size-normal: calc(1.5rem + 1vw);
+  --text-size-big: calc(2.4rem + 1vw);
+  --text-color-main: #414141;
+  --text-color-special: #906272;
+  --background-color: #414141;
+}
+body {
+}
+h1 {
+  font-size: calc(2rem + 1vw);
+}
+h2 {
+  font-size: calc(3.5rem + 1vw);
+}
+h3 {
+  font-size: calc(3rem + 1vw);
+}
+h4,
+h5 {
+  font-size: calc(2.4rem + 1vw);
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: var(text-size-normal);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
