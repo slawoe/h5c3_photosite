@@ -212,11 +212,11 @@ nav > ul {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  background: var(--background-color);
+  background: rgba(65, 65, 65, 0.8);
   padding: 5rem 10rem;
   text-align: center;
 }
-#gallery img {
+#gallery img {s
   height: 100%;
   width: 100%;
   object-fit: cover;
