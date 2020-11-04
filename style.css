@@ -71,16 +71,19 @@ header {
   top: 0;
   z-index: 3;
 }
-nav {
+header > nav {
   height: 5vh;
   width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
-  padding: 2.2rem 0;
+  padding: 2rem 0;
 }
 header > nav > a {
   width: 50%;
+}
+header > nav > a > h1 {
+  padding: 0.5rem;
 }
 nav > ul {
   display: flex;
@@ -307,7 +310,6 @@ footer > ul > li > a > img {
     align-items: center;
   }
   header > nav > a > h1 {
-    padding: 0.5rem;
     text-align: center;
   }
   header > nav > ul > li {
@@ -324,7 +326,7 @@ footer > ul > li > a > img {
     flex-direction: column;
   }
   #gallery > img {
-    width: 100vw;
+    width: 100%;
   }
   #gallery > div {
     display: none;
