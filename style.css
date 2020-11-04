@@ -253,13 +253,14 @@ nav > ul {
 #contact > div > form > label {
   display: block;
 }
-#contact > div > form > label > input {
+#contact > div > form > input {
   display: block;
   margin: 3rem 0;
   padding: 0.5rem;
   border: none;
   background: var(--background-color);
   color: white;
+  width: 100%;
 }
 #contact > div > form > button {
   padding: 1rem 8rem;
@@ -281,7 +282,7 @@ footer {
   align-items: center;
   height: 8vh;
   flex-wrap: wrap;
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
 }
 footer > span {
   width: 50%;
@@ -327,9 +328,6 @@ footer > ul > li > a > img {
   }
   #contact > div {
     padding: 4rem 0;
-  }
-  footer {
-    padding: 0 1.5rem;
   }
   footer > ul > li > a > img {
     width: 1.5rem;
