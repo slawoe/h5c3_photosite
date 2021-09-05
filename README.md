@@ -1,4 +1,4 @@
-# Website Example Photography
+# Website example: Photography
 
 Pure HTML5 & CSS3 animated website example
 
